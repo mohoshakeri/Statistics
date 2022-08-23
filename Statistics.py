@@ -1,4 +1,4 @@
-def totalGrowth(list):
+def total_growth(list):
     index = 0
     memory = []
     growth = []
@@ -12,7 +12,7 @@ def totalGrowth(list):
         
     return sum(growth)
 
-def partialGrowth(list):
+def partial_growth(list):
     try:
         if list[-1] != 0:
             result = (list[-1] / list[-2])*100
