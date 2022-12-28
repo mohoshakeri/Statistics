@@ -1,3 +1,20 @@
+import statistics
+
+def mean(data):
+    if len(data) < 1:
+        return 0
+    return statistics.mean(data)
+
+def variance(data):
+    if len(data) < 2:
+        return 0
+    return statistics.variance(data)
+
+def stdev(data):
+    if len(data) < 2:
+        return 0
+    return statistics.stdev(data)
+
 def total_growth(list):
     index = 0
     memory = []
